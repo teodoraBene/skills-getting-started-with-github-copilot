@@ -22,6 +22,12 @@ Run the application with Uvicorn:
    python -m uvicorn src.app:app --reload
    ```
 
+Run the backend tests from the repository root with:
+
+   ```
+   pytest
+   ```
+
 Then open your browser and go to:
    - API documentation: http://localhost:8000/docs
    - Alternative documentation: http://localhost:8000/redoc
